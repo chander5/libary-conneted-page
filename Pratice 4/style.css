@@ -1,0 +1,200 @@
+/*======================================all apply start==============================================*/
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+/*======================================all apply END==============================================*/
+
+/*======================================all weight start==============================================*/
+.w-70{
+    width:70%;
+    float:left;
+    overflow:hidden;
+}
+/*======================================all weight start==============================================*/
+/*======================================header start==============================================*/
+nav.head{
+    width: 100%;
+    background-color:#e4892a;
+    box-sizing:border-box;
+}
+nav.head .breand-name h1{
+    color:#fff;
+      padding:10px 0 0 35px;
+}
+  nav.head .join{
+      width: 100%;
+            margin:2% 2px 6px 0;
+      padding-top: 28px;
+     }
+nav.head a input[type="submit"]{
+    font-size: 14px;
+    padding: 0 10px 0 5px;
+    box-sizing: border-box;
+    background-color: royalblue;
+    color:wheat;
+    transition:auto;
+}
+nav.head a :hover{
+    border:2px solid #7f07c5;
+   }
+/*======================================header END==============================================*/
+/*======================================offer start==============================================*/
+.cupone{
+    position: relative;
+    height:50px;
+}
+.cupone .f-p{
+   position:absolute;
+   padding :11px 0 0 266px;
+   color:#ae634b;
+}
+.cupone .s-p{
+    position:absolute;
+    padding :11px 0 0 686px;
+    color:#86a4ae;
+ }
+ /*======================================offer END==============================================*/
+ /*======================================main-body start==============================================*/
+.main-contented{
+   height:512px;
+    background:url('image/li.jpeg') no-repeat fixed center center /cover ;
+}
+.main-contented .welcome h1{
+         font-size: 61px;
+         padding:46px 0 0 30%;
+         color:#fff;
+         box-sizing: border-box;
+}
+.main-contented .para h3{
+        font-size: 26px;
+        margin: 15px 5% 28px 36%;
+        color: #fff;
+        box-sizing: border-box;
+   }
+.main-contented .serch-book-name input[type="text"]{
+    margin-left:31%;
+    margin-top:1%;
+    margin-bottom:5px;
+    padding: 7px 345px 7px 22px;
+    font-size: 18px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.main-contented .serch-book-name input[type="text"]:hover{
+ border:5px solid rgba(9, 238, 238, 0.83);
+}
+.main-contented .serch-book-name a{
+    color:#fff;
+    background-color:#e4892a;
+        padding:3px 14px 7px 9px;
+    transition: 0.2s;
+    
+}
+.main-contented .serch-book-name a:hover{
+   border:2px solid #0707dcd2;
+  
+}
+.main-contented .p span{
+    margin: 15px 0px 40px 443px;
+    color:#fff;
+   
+    box-sizing: border-box;
+   }
+
+.main-contented .carrer{
+    position: relative;
+    margin: 56px 0 0 0;
+    background-color: blanchedalmond;
+   
+}
+.main-contented .carrer .sell-Book{
+    position:absolute;
+    padding:0 0 0 241px;
+    
+    display:inline-block;
+    box-sizing: border-box;
+}
+.main-contented .carrer .sell-Book a{
+   background: #6d60507c;
+       color:#fff;
+   padding: 30px 39px 30px 10px;
+   transition: 0.2s;
+}
+.main-contented .carrer .sell-Book a:hover{
+    background-color:#e1812a; 
+}
+.main-contented .carrer .Expoler-careers{
+    position:absolute;
+    padding:0 0 0 853px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.main-contented .carrer .Expoler-careers a{
+    background: #6d60507c;
+       color:#fff;
+    padding: 30px 39px 30px 10px;
+    transition: 0.2s;
+}
+.main-contented .carrer .Expoler-careers a:hover{
+    background-color:#e1812a;   
+}
+.main-contented .carrer .help{
+    position:absolute;
+    padding: 0 0px 0 648px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.main-contented .carrer .help a{
+    background:#6d60507c;
+        color:#fff;
+    padding: 30px 39px 30px 10px; 
+    transition: 0.2s;
+}
+.main-contented .carrer .help a:hover{
+    background-color:#e1812a; 
+}
+.main-contented .carrer .return-book{
+    position:absolute;
+    padding: 0 0 0 448px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.main-contented .carrer .return-book a{
+    background:#6d60507c;
+       color:#fff;
+    padding: 30px 39px 30px 10px; 
+    transition: 0.2s;
+}
+.main-contented .carrer .return-book a:hover{
+    background-color:#e1812a;
+}
+.main-contented .carrer .internships{
+    padding: 0 0 0 1064px;
+    position:absolute;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.main-contented .carrer .internships a{
+    background: #6d60507c;
+       color:#fff;
+    padding: 30px 39px 30px 10px; 
+    transition: 0.2s;
+}
+.main-contented .carrer .internships a:hover{
+    background-color:#e1812a;
+}
+.main-contented .About{
+    margin-top: 7%;
+}
+.main-contented .About p{
+    margin-top: 10%;
+    padding-left:30%;
+   color:#fff;
+}
+/*======================================Main-body END==============================================*/
