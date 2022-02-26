@@ -1,0 +1,120 @@
+@media only screen and (max-width:810px ){
+    .headaer-area .w-20:first-child{
+        width:9%;
+    }   
+    .headaer-area .w-40{
+        display:none;
+    }
+    .headaer-area .w-20:last-child{
+        width: 36%;
+    }
+    .headaer-area .w-20 [id="Email or Phone"]{
+        margin: 18px 0px 0px 99px;
+    }
+    .headaer-area .w-20 [id="password"]{
+        margin: 17px 0px -14px 347px;
+    }
+    .headaer-area .w-20 [type="button"]{
+        margin: 19px 0 0 188%;
+    }
+    .main-body .w-70 [type="text"] {
+        margin: 32% 0 -0 3%;
+        padding: 0px 0 0 36px;
+        font-size: 20px;
+         width: 321px;
+    }
+    .main-body .w-70 img {
+        margin: 0 2px -2px -63%;
+        width: 21px;
+    }
+    .main-body .w-30{
+        width: 40%;
+        margin: -152px 15px -1px -67px;
+    }
+    .main-body .w-30 [id="text"] {
+        margin: 3px 1px 12px 11px;
+        font-size: 16px;
+        width: 261px;
+        
+    }
+    .main-body .w-30 .radio {
+        padding: 0 0 7px 28px;
+    }
+    .main-body .w-30 strong {
+        font-size: 16px;
+   }
+.main-body .w-30 [id="email"] {
+    margin: 3px 1px 12px 11px;
+    font-size: 16px;
+    width: 261px;
+    
+   }
+.main-body .w-30 [id="re-email"] {
+    margin: 3px 1px 12px 11px;
+    font-size: 16px;
+    width: 261px;
+    
+    }
+.main-body .w-30 [id="phone"] {
+    margin: 3px 1px 12px 11px;
+    font-size: 16px;
+    width: 261px;
+    
+     }
+     .main-body .w-30 [type="button"]{
+        font-size: 12px;
+     }
+     .main-body .w-30 p{
+        font-size: 17px; 
+     }
+}
+@media only screen and ( max-width:375px ){
+.headaer-area .w-20 img{
+    width:20px;
+    padding-bottom: 6px;
+}
+.headaer-area .w-20 [id="Email or Phone"] {
+	margin: 18px 0px 0px 99px;
+}
+.headaer-area .w-20 [id="Email or Phone"] {
+	margin: 18px 0px 0px 45px;
+	display: block;
+    width: 209px;
+}
+.headaer-area .w-20 [id="password"] {
+	margin: 64px 0px 14px -1px;
+    width: 239px;
+}
+.headaer-area {
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.headaer-area .w-20 [type="button"] {
+	margin: 107px 0 0 60%;
+	display: block;
+	width: 100%;
+	background-color: #02dd0282;
+	color: #fff;
+	font-size: 17px;
+
+}
+.main-body .w-70 [type="text"] {
+		width: 326px;
+	display: block;
+}
+.main-body .w-70 img {
+	margin: 0 15px 12px 8%;
+	width: 21px;
+	
+	position: absolute;
+	top: 3px;
+	left: -17px;
+}
+.main-body .w-30 {
+	width: 92%;
+	margin: 8px 15px -1px -232px;
+}
+}
+    
+
+

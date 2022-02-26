@@ -1,0 +1,185 @@
+/*===========================   COMMON APPLY STYLE START    ===========================================*/
+*{
+   padding:0;
+   margin:0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+body{
+    background :url("image/1217216.jpg") no-repeat fixed center center /cover;
+}
+
+.w-20{
+    width:20%;
+}
+.w-40{
+    width:40%;
+}
+.w-70{
+    width:70%;
+}
+.w-30{
+    width:30%;
+}
+
+/*===========================   COMMON APPLY STYLE END    ===========================================*/
+
+/*===========================   HEADER APPLY STYLE START    ===========================================*/
+.w-20:first-child{
+    padding:5px;
+    float: left;
+}
+.w-40{
+    float:left;
+    overflow: hidden;
+}
+.w-20:last-child{
+position:relative;
+}
+.headaer-area{
+    overflow:hidden;
+}
+.headaer-area .w-20 [id="Email or Phone"]{
+    position:absolute;
+    width: 184px;
+    margin: 19px 0px 0px -28px;
+    padding: 0 22px 9px 25px;
+    transition: 0.2s;
+}
+.headaer-area .w-20 [id="Email or Phone"]:focus{
+    border:3px solid #fd4806;
+    color:rgb(17, 17, 17);
+    font-size:15px;
+    background-color: rgba(141, 155, 11, 0.556);
+}
+.headaer-area .w-20 [id="password"]{
+    position:absolute;
+    
+    margin: 19px 0px -14px 217px;
+    padding: 5px 2px 6px 15px;
+    width: 164px;
+    transition: 0.2s;
+}
+.headaer-area .w-20 [id="password"]:focus{
+    border:3px solid #e6062f;
+    color:rgb(0, 217, 255);
+    background-color: rgba(141, 155, 11, 0.556);
+}
+.headaer-area .w-20 [type="button"]{
+    position:absolute;
+    margin: 22px 0 0 151%;
+    padding: 2px 15px 4px 11px;
+    transition: 1s;
+    box-sizing:border-box;
+}
+.headaer-area .w-20 [type="button"]:hover{
+    border:1px solid #06e651;
+    color:rgb(255, 0, 0);
+    background-color: rgba(158, 17, 228, 0.672);
+}
+/*===========================   HEADER APPLY STYLE END    ===========================================*/
+/*===========================   MAIN BODY STYLE START    ===========================================*/
+.main-body{
+    position:relative;
+}
+.main-body .w-70 [type="text"]{
+        
+        color:rgb(8, 9, 8);
+        margin: 32% 0 -0 28%;
+        padding: 0px 0 0 65px;
+         font-size: 27px;
+         background:#00ff7066;
+         width: 459px;
+}
+.main-body .w-70 img{
+    margin: 0 3px -4px -55%;
+}
+.w-30{
+    margin: -151px 0 0 0;
+    padding: 0 0 0 66%;
+ }
+.iog-in-box{
+    background-color:rgba(47, 53, 66, 0.82);
+    padding: 17px 0 26px 16px;
+}
+.main-body .w-30 [id="text"] {
+	margin: 3px 1px 12px 53px;
+	padding: 5px;
+	display: block;
+	font-size: 18px;
+    width: 265px;
+    clear: both;
+    transition: 0.5s;
+}
+.main-body .w-30 [id="text"]:hover{
+    border:3px solid pink;
+}
+.main-body .w-30 .radio{
+    padding:0 0 7px 58px;
+}
+.main-body .w-30 [id="email"]{
+    margin: 3px 1px 12px 53px;
+	padding: 5px;
+	display: block;
+	font-size: 18px;
+    width: 269px;
+    transition: 0.5s;
+}
+.main-body .w-30 [id="email"]:hover{
+    border:3px solid rgb(230, 125, 142); 
+}
+.main-body .w-30 [id="re-email"]{
+    margin: 3px 1px 12px 53px;
+	padding: 5px;
+	display: block;
+	font-size: 18px;
+    width: 269px;
+    transition: 0.5s;
+}
+.main-body .w-30 [id="re-email"]:hover{
+    border:3px solid orange;
+}
+.main-body .w-30 [id="phone"]{
+    margin: 3px 1px 12px 53px;
+	padding: 5px;
+	display: block;
+	font-size: 18px;
+    width: 269px;
+    transition: 0.5s;
+}
+.main-body .w-30 [id="phone"]:hover{
+    border:3px solid peachpuff;
+}
+.main-body .w-30 [type="radio"]{
+    width:40px;
+    height:18px;
+}
+.main-body .w-30 strong{
+    font-size:20px;
+    color:#fff;
+}
+.main-body .w-30 [type="button"] {
+	margin: 3px 1px 12px 101px;
+	padding: 3px 10px;
+	display: block;
+	font-size: 14px;
+	transition: 0.5s;
+}
+.main-body .w-30 [type="button"]:hover{
+    border:2px solid blue;
+    background: #fd48069e;
+    color:#fff;
+}
+.main-body .w-30 p {
+    padding: 6px 0 0 38px;
+    font-size:19px;
+    color:#fff;
+}
+.main-body .w-30 p a{
+    color:rgb(123, 221, 24);
+    background-color:rgba(27, 131, 96, 0.241);
+}
+.main-body .w-30 p a:hover{
+    text-decoration:none;
+}
+/*===========================   MAIN BODY STYLE END    ===========================================*/
+
